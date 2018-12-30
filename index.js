@@ -22,8 +22,14 @@ function distanceFromHqInFeet(block) {
 distanceFromHqInFeet()
 
 
-function distanceTravelledInFeet() {
-  
+function distanceTravelledInFeet(start, end) {
+  let result; 
+  if (start > end) {
+    result = (start - end) * 264; 
+  } else {
+    result = (end - start) * 264;
+  }
+  return result;
 }
 
 distanceTravelledInFeet()
