@@ -3,7 +3,9 @@
 
 function distanceFromHqInBlocks(block) {
   let result
-  if 
+  if (block >= 42) {
+    result = block - 42;
+  }
 }
 
 distanceFromHqInBlocks()
