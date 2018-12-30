@@ -8,6 +8,7 @@ function distanceFromHqInBlocks(block) {
   } else {
     result = 42 - block;
   }
+  return result
 }
 
 distanceFromHqInBlocks()
