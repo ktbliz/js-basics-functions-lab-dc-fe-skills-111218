@@ -7,9 +7,23 @@ function distanceFromHqInBlocks() {
 
 distanceFromHqInBlocks()
 
+
 function distanceFromHqInFeet() {
   
 }
 
 distanceFromHqInFeet()
 
+
+function distanceTravelledInFeet() {
+  
+}
+
+distanceTravelledInFeet()
+
+
+function calculatesFarePrice() {
+  
+}
+
+calculatesFarePrice()
